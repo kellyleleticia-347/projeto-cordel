@@ -1,0 +1,94 @@
+@charset "UTF-8";
+@font-face{
+    font-family: 'Patua One';
+    src: url('../fontes/Patua_One/PatuaOne-Regular.ttf');
+}
+@font-face{
+    font-family: 'Sriracha';
+    src: url('../fontes/Sriracha/Sriracha-Regular.ttf');
+}
+
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Patua One', cursiva;
+    --fonte3: 'Sriracha', cursiva;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ html,  body{
+    background-color: rgb(202, 198, 198);
+    min-height:100vh ;
+    font-family: var(--fonte1);
+    
+}
+header{
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    font-family: var(--fonte2);
+   
+  
+
+}
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 6.5vw;
+}
+header > p{
+    padding-bottom: 50px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(206, 206, 206);
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 40px;
+    font-family: var(--fonte3);
+    font-size: 3.7vw;
+}
+section > p{
+ padding-bottom: 4.5em;
+}
+.imagem > p{
+    background-color: #000000c5;
+   display: inline-block;
+   padding: 10px;
+   border-radius: 5px;
+}
+.normal{
+    background-color: white;
+    color: #000;
+}
+.imagem{
+    background-color:#000000d7;
+    color: white;
+    text-shadow: 1px 1px 0px black;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.726);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#img01{
+    background-image: url(../imagens/background001.jpg);
+   background-position: right center;
+}
+#img02{
+    background-image: url(../imagens/background002.jpg);
+    background-position: right center;
+}
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
