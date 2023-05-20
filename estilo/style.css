@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face{
-    font-family: 'Patua One';
-    src: url('../fontes/Patua_One/PatuaOne-Regular.ttf');
+    font-family: 'Treasure';
+    src: url('../fontes/treasure_2/Treasure.otf');
 }
 @font-face{
     font-family: 'Sriracha';
@@ -10,7 +10,7 @@
 
 :root{
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
-    --fonte2: 'Patua One', cursiva;
+    --fonte2: 'Treasure', cursiva;
     --fonte3: 'Sriracha', cursiva;
 }
 *{
