@@ -91,4 +91,5 @@ footer{
     background-color: black;
     text-align: center;
     padding: 10px;
+    font-family: var(--fonte2);
 }
