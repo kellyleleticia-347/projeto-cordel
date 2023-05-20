@@ -52,13 +52,13 @@ a:hover{
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 2em;
+    line-height: 1.5em;
     padding-left: 40px;
     font-family: var(--fonte3);
     font-size: 3.7vw;
 }
 section > p{
- padding-bottom: 4.5em;
+ padding-bottom: 3em;
 }
 .imagem > p{
     background-color: #000000c5;
